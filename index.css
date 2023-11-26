@@ -1,5 +1,6 @@
 body{
     background-color: rgb(38, 38, 38);
+  
 }
 
 .wrapper{
@@ -12,6 +13,13 @@ body{
     background-image:url("https://images.squarespace-cdn.com/content/v1/640d7851962a0f7ef6293d4d/1682049702535-9IVT1Y9NHU7MUK0NFS8S/111.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+
+    /* postioning */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
 }
 
 .nav-color{
@@ -74,13 +82,23 @@ body{
     height: 500px;
 }
 
-.hero-text{
-    font-size: 100px;
-    font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
+.img-script-wrapper{
     color: white;
+    border: solid;
+    border-color: white;
+    width: 500px;
+    height: 500px;
 
-    /* postion */
-     display: flex;
-     justify-content: center;
+    /* postioning
+    display: flex;
+    justify-content: center */
+}
+
+.img-script{
+   font-size: 100px;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+.btn-wrapper{
+    margin-top: 200px
 }
