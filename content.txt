@@ -1,0 +1,53 @@
+Game Overview. 
+Chima is a RPG crypto game that takes place in the Afro-futuristic city of Liya~Nora. Liya~Nora is a city thats become controlled but an artifical intelligence name the Giah whose
+creator only known as Ameqran disappeared mysteriously in the year 240 Before the War on Liya~Nora (BWOL). Giah began to write her own programming
+and created artificial senitents in his image the govern Liya~Nora. These sentients act on behalf of Giah and do her bidding in a effort to search for her former creator she will destroy
+everything that gets in the way. Explore the vast world of Chima and build your legacy.
+
+Obejective 
+
+Earn while you play. Build your communtiy and protect your village. Discover ruins and scapes that were destroyed in the War on Liya~Nora.
+
+Earn: Connect your crypto wallet to your gamer profile and complete missions to earn coins. 
+Stake: Stake your coins at The Citadel a central marketpalce where players can make purchases or open credit accounts with local vendors to help grow there businesses. The more they make the more you make.
+Players can also withdraw coins by using xp gained on Chima. The transaction go directly to ther crytpo wallets that can be converted to any coin on the ERC20 Network (Ethereum) or the BTC/Bitcoin network
+
+
+
+
+
+
+What does HTML stand for? Hypertext Markup Language
+
+What is an HTML Element? Give me an example of how it can be used. 
+<div></div> ?
+
+What is CSS? What does it stand for? Cascade Style Sheet
+
+What is the syntax on how to style a class in CSS? 
+
+.profile-header{
+   black box
+}
+
+How do I style html elements that dont have classes?
+
+div {
+   all my styles will affect all the divs on the page. we dont want that 
+}
+
+
+<img src = "some reference"/>
+
+
+<div class = "profile-header" id="">
+    <img src = "some reference"/>
+    <div class = "user-info">
+        <div class="use-bio">
+            a coo bio
+        </div>
+         <div class="user-profile-type">
+            public figure
+        </div>
+    </div>
+</div>

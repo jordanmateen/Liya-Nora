@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(38, 38, 38);
+}
+
+.wrapper{
+    /* height: 50px;
+    border: solid; */
+}
+
+.hero-image{
+    height: 100vh;
+    background-image:url("https://images.squarespace-cdn.com/content/v1/640d7851962a0f7ef6293d4d/1682049702535-9IVT1Y9NHU7MUK0NFS8S/111.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-color{
+    color: white;
+}
+
+.character-section{
+    margin-top: 100px;
+}
+
+.content-wrapper{
+    margin-top: 100px;
+}
+
+.about-content{
+    margin-top: 10px;
+}
+
+.char-row-1-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px; 
+ }
+
+.char-row-2-wrapper{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin-top: 20px; 
+}
+
+.char-card{
+    background-color: black;
+    color: white;
+    border: solid;
+    border-color: rgb(250, 128, 250), 79, 143;
+}
+
+.title-section-wrapper{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-header-wrapper{
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    font-family: 'Courier New', Courier, monospace;
+    border: solid;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.box{
+    border: solid;
+    border-color: white;
+    width: 500px;
+    height: 500px;
+}
+
+.hero-text{
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+
+    /* postion */
+     display: flex;
+     justify-content: center;
+}
