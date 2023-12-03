@@ -39,3 +39,18 @@ body{
     width: 86.98px;
     height: 38px;
 }
+
+.pricing-page-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+.recommended {
+    border-bottom: solid;
+    border-color: white;
+    height: 20px;
+}
