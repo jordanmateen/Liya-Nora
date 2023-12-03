@@ -2,6 +2,40 @@ body{
     background-color: rgb(38, 38, 38);
 }
 
-.text{
+.text {
     color: white;
+}
+
+.pricing-card-wrapper {
+    /* border styles */
+    border: solid;
+    border-color: white;
+    border-radius: 10px;
+
+    /* dimensions */
+    width: 400px;
+    height: 600px;
+}
+
+.pricing-header {
+    border-bottom: solid;
+    border-color: white;
+    height: 175px;
+}
+
+.pricing-info {
+    border: solid;
+    border-color: white;
+    width: 310px;
+    height: 310px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.pricing-btn-wrapper {
+    margin: 0 auto;
+    margin-top: 20px;
+
+    width: 86.98px;
+    height: 38px;
 }

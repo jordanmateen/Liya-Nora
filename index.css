@@ -3,11 +3,6 @@ body{
   
 }
 
-.wrapper{
-    /* height: 50px;
-    border: solid; */
-}
-
 .hero-image{
     height: 100vh;
     background-image:url("https://images.squarespace-cdn.com/content/v1/640d7851962a0f7ef6293d4d/1682049702535-9IVT1Y9NHU7MUK0NFS8S/111.jpg");
