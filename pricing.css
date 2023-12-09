@@ -2,6 +2,62 @@ body{
     background-color: rgb(38, 38, 38);
 }
 
-.text{
+.text {
     color: white;
+}
+
+.pricing-card-wrapper {
+    /* border styles */
+    border: solid;
+    border-color: white;
+    border-radius: 10px;
+
+    /* dimensions */
+    width: 400px;
+    height: 600px;
+}
+
+.pricing-header {
+    /* border */
+    border-bottom: solid;
+    border-color: white;
+    height: 175px;
+
+    /* postioning */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-info {
+    /* border: solid; */
+    /* border-color: white; */
+    width: 310px;
+    height: 310px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.pricing-btn-wrapper {
+    margin: 0 auto;
+    margin-top: 20px;
+
+    width: 86.98px;
+    height: 38px;
+}
+
+.pricing-page-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+.recommended {
+    border-bottom: solid;
+    border-color: white;
+    height: 20px;
 }

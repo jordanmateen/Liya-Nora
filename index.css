@@ -3,11 +3,6 @@ body{
   
 }
 
-.wrapper{
-    /* height: 50px;
-    border: solid; */
-}
-
 .hero-image{
     height: 100vh;
     background-image:url("https://images.squarespace-cdn.com/content/v1/640d7851962a0f7ef6293d4d/1682049702535-9IVT1Y9NHU7MUK0NFS8S/111.jpg");
@@ -28,6 +23,7 @@ body{
 
 .character-section{
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .content-wrapper{
@@ -89,6 +85,9 @@ body{
     width: 500px;
     height: 500px;
 
+    font-weight: bold;
+    padding: 30px;
+
     /* postioning
     display: flex;
     justify-content: center */
@@ -101,4 +100,33 @@ body{
 
 .btn-wrapper{
     margin-top: 200px
+}
+
+.page-footer {
+    height: 200px;
+    border-top: solid 1px white;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column {
+    height: 200px;
+    width:30%;
+    padding: 30px;
+    color: rgb(173, 173, 176);
+}
+
+.logo {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white
+
+}
+
+.footer-column-title{
+    font-weight: bold;
+    font-size: 20px;
 }
