@@ -18,18 +18,25 @@ body{
 }
 
 .pricing-header {
+    /* border */
     border-bottom: solid;
     border-color: white;
     height: 175px;
+
+    /* postioning */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .pricing-info {
-    border: solid;
-    border-color: white;
+    /* border: solid; */
+    /* border-color: white; */
     width: 310px;
     height: 310px;
     margin: 0 auto;
     margin-top: 20px;
+    padding: 10px;
 }
 
 .pricing-btn-wrapper {
